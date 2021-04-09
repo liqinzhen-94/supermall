@@ -14,8 +14,8 @@ Vue.use(VueRouter)
 //抽取routes属性
 const routes = [
   {
-    path: '/',
-    redirect: Home
+    path: '',
+    redirect: '/home'
   },
   {
     path: '/home',
